@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Extra credit</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <ink hrefl="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+        
+
+    </head>
+
+    <body class="mypage">
+        <div class="website-content">
+        <form action="submit.html" id="userForm">
+        <div class="wrapper">
+        <h1 >Do you like cupcakes?</h1>
+        <img src="images/Strawberrycupcake.png" alt="cupcakes" >
+        <img src="images/cookiecupcake.png"alt="cupcakes" >
+        <p><label for="choose">Would you prefer strawberry cupcakes or chocolate chip cookie dough cupcakes? </label>
+        <input required minlength="4" maxlength="36">
+        </p>
+        <p><label for="choose">Would you like to have a different flavor? </label>
+            <input required minlength="4" maxlength="36">
+            </p>
+        <p><label for="number">How many would you like to eat?</label>
+        <input type="number" id="number" name="amount" value="1" min="1" max="10">
+        </p>
+        <button type="submit" form="userForm" onclick id="btn">Submit</button>
+        </div>
+        </form>
+        </div>
+        <footer class="mypage-footer">
+            <p>© 2020 | Abundio Martinez</p>
+        </footer>
+        
+        <script src="main.js" async defer></script>
+    </body>
+
+</html>
